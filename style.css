@@ -1,0 +1,54 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Neonderthaw', cursive;
+    background-color: lightpink;
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-size: 100px;
+    text-align: center;
+}
+
+
+.image_1{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+}
+
+.image_2{
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 20px;
+    float:right;
+    margin-top: 20px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 50px palevioletred;}
+    to{box-shadow: 1px 1px 50px rgb(253, 199, 207);}
+}
+#song{
+    font-size: 20px;
+    font-family: 'Neonderthaw', cursive;
+    background-color: palevioletred;
+    float:none;
+}
